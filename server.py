@@ -27,6 +27,10 @@ def server_input():
             for guest in list_of_guests:                   # if so check if second part is one of users using the server
                 if server_inp.split()[1] == guest.get_name():
                     print(f"User: {guest.get_name()} | joined server: {guest.when_joined}\n")
+                else:
+                    print("There is no such user on the server.")
+        else:
+            print("Incorrect command.")
             continue
 
 

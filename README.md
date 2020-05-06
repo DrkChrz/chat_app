@@ -1,4 +1,3 @@
 # chat_app
-Simple chat app in python
 
-Simple chat app that prints messages from different users.
+Simple chat app that allows different users to join a chat room and communicate with each other.
